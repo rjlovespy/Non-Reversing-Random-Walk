@@ -70,7 +70,7 @@ anime=ani.FuncAnimation(fig,journey,frames=n+1,interval= 250,blit=True,repeat=Fa
 canvas.plot(x[0],y[0],marker="D",markerfacecolor="gold",markersize=10,label= "Start")
 canvas.plot(x[-1],y[-1],marker="D",markerfacecolor="orange",markersize=10,label="End")
 canvas.axis(False)
-fig.suptitle(f"Non Reversing Random Walk for n = {n} steps")
+fig.suptitle(f"Non Reversing Random Walk of {n} steps")
 fig.patch.set_facecolor("lime")
 plt.legend(loc="best")
 # anime.save("NRRW.gif")
